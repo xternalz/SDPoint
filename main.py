@@ -142,6 +142,7 @@ def main():
 		num_workers=args.workers, pin_memory=True)
 
 	if args.evaluate:
+		model.eval()
 		val_results_file = open(args.val_results_path, 'w')
 		val_results_file.write('blockID\tratio\tflops\ttop1-acc\ttop5-acc\t\n')
 		for i in [-1] + [model.module.blockID] + list(range(model.module.blockID)):
