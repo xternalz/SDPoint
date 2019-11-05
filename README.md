@@ -9,7 +9,7 @@ This repository contains the code for the SDPoint method proposed in
 If you find this code useful for your research, please cite
 ```
 @article{kuen2018stochastic,
-  title={Stochastic Downsampling for Cost-Adjustable Inference and Improved Regularization in Convolutional Networks},
+  title={{Stochastic Downsampling for Cost-Adjustable Inference and Improved Regularization in Convolutional Networks}},
   author={Kuen, Jason and Kong, Xiangfei and Zhe, Lin and Wang, Gang and Yin, Jianxiong and See, Simon and Tan, Yap-Peng},
   booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2018}
